@@ -81,13 +81,11 @@ Depois criaremos a lista de postagens: abrimos um elemento section e dentro dele
 
 Para criar nossa postagem adicionamos um `<article>` com um `<header>` e um `<h3>`.
 
-O último passo desta etapa é criar um rodapé para nossas informações de contato: crie um elemento footer antes de fechar o `</body>`.
-
-Não se preocupe com o layout e com conteúdo da página, nós vamos tratar isso mais a frente.
+O último passo desta etapa é criar um rodapé para nossas informações de contato: crie um elemento footer antes de fechar o `</body>`.Não se preocupe com o layout e com conteúdo da página, nós vamos tratar isso mais a frente.
 ----
 ## Textos e links
 
-i motivada pela necessidade de compartilhar textos e documentos, e mesmo depois de quase 30 anos, com toda a evolução da web, isso ainda representa uma boa parte do conteúdo da web.
+A criação do HTML foi motivada pela necessidade de compartilhar textos e documentos, e mesmo depois de quase 30 anos, com toda a evolução da web, isso ainda representa uma boa parte do conteúdo da web.
 
 Já falamos anteriormente sobre os elementos h1-h6 e, eles são essenciais para nos indicar visualmente a importância e localização de seções de texto na página, mas para textos maiores e mais densos usamos o elemento p.
 
@@ -110,7 +108,7 @@ Criarei um hyperlink para meu perfil no LinkedIn: adicione o hyperlink no atribu
 
 ----
 ## Imagens
-A web também é feita de imagens e para representá-las temos o elemento <img>, ele é um daqueles elementos sem tag de fechamento.
+A web também é feita de imagens e para representá-las temos o elemento `<img>`, ele é um daqueles elementos sem tag de fechamento.
 
 O elemento img é bem simples, contendo apenas 2 atributos próprios, o src e o alt.
 
@@ -124,9 +122,7 @@ Vamos adicionar uma imagem ao cabeçalho da página e uma imagem a postagem.
 
 Primeiro vamos colocar as imagens na pasta do nosso projeto. Para a imagem do cabeçalho eu escolhi uma foto minha com 100 pixels de largura e 100 pixels de altura e para a imagem da postagem eu procurei por html code no site Unsplash, escolhi uma das imagens e deixei ela com 960 pixels de largura por 322 pixels de altura.
 
-Dentro do primeiro `<header>` da página e antes do `<h1>` iremos adicionar um elemento img e no atributo src colocamos o caminho para a nossa foto, /lucas-vilaboim.jpg, e o atributo alt deve conter um significado para a imagem, como no meu caso é uma ilustração, colocarei Ilustração do rosto de Lucas Vilaboim.
-
-E dentro do `<header>` do `<article>` vamos fazer a mesma coisa, mas agora depois do `<h3>`, e no atributo alt colocaremos Editor de texto mostrando códigos HTML.
+Dentro do primeiro `<header>` da página e antes do `<h1>` iremos adicionar um elemento img e no atributo src colocamos o caminho para a nossa foto, /lucas-vilaboim.jpg, e o atributo alt deve conter um significado para a imagem, como no meu caso é uma ilustração, colocarei Ilustração do rosto de Lucas Vilaboim. E dentro do `<header>` do `<article>` vamos fazer a mesma coisa, mas agora depois do `<h3>`, e no atributo alt colocaremos Editor de texto mostrando códigos HTML.
 ----
 ## Listas
 
