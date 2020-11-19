@@ -80,8 +80,9 @@ Vamos abrir nosso arquivo index.html e começar pelo cabeçalho: criamos um `<he
 Depois criaremos a lista de postagens: abrimos um elemento section e dentro dele adicionamos outro `<header>` contendo um `<h2>`. Notem que eu posso ter mais de um `<header>` na página.
 
 Para criar nossa postagem adicionamos um `<article>` com um `<header>` e um `<h3>`.
+O último passo desta etapa é criar um rodapé para nossas informações de contato: crie um elemento `<footer>` antes de fechar o `</body>`. 
+Não se preocupe com o layout e com conteúdo da página, nós vamos tratar isso mais a frente.
 
-O último passo desta etapa é criar um rodapé para nossas informações de contato: crie um elemento footer antes de fechar o `</body>`.Não se preocupe com o layout e com conteúdo da página, nós vamos tratar isso mais a frente.
 ----
 ## Textos e links
 
