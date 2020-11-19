@@ -83,7 +83,6 @@ Para criar nossa postagem adicionamos um `<article>` com um `<header>` e um `<h3
 O último passo desta etapa é criar um rodapé para nossas informações de contato: crie um elemento footer antes de fechar o `</body>`.
 
 Não se preocupe com o layout e com conteúdo da página, nós vamos tratar isso mais a frente.
-
 ----
 ## Textos e links
 
@@ -144,4 +143,4 @@ E o elemento li é um item dentro de uma dessas listas. Um  `<li>` pode conter v
 
 Adicionaremos uma lista de contatos ao rodapé da nossa página, e para isso usaremos também o elemento a que vimos anteriormente.
 
-Crie um elemento ul e dentro dele adicione um `<li>` com um elemento a, no atributo href adicione o link de alguma rede social que você mantenha e, no conteúdo da âncora coloque o nome dessa rede.# Avanade-FullStack-HTML5
+Crie um elemento ul e dentro dele adicione um `<li>` com um elemento a, no atributo href adicione o link de alguma rede social que você mantenha e, no conteúdo da âncora coloque o nome dessa rede.
