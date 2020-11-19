@@ -15,20 +15,20 @@ E agora podemos ver como é a estrutura básica de um arquivo HTML.
 
 A primeira linha do documento deve ser o `<!DOCTYPE html>`, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
 
-## `<html>`
+`<html>`
 
 A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, para o português brasileiro usamos pt-BR.
 
-## `<head>`
+`<head>`
 
 A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script, o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título da página com a tag title.
 
-## `<body>`
+`<body>`
 
 E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
 
 ----
-## Prática 
+### Prática 
 
 Como exercício para esse curso iremos construir um site pessoal, e precisamos começar com a estrutura básica que acabamos de ver.
 
@@ -71,7 +71,8 @@ Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é ac
 
 Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo `<h1>` o mais importante e `<h6>` o menos. Uma dica: use apenas um `<h1>` por página, pois ele representa o objetivo da sua página.
 
-Prática
+### Prática
+
 Dando continuidade ao nosso site iremos montar sua estrutura. Pensei em adicionarmos um cabeçalho com nosso nome, uma lista de posts (como um blog) e um rodapé para nossos contatos.
 
 Vamos abrir nosso arquivo index.html e começar pelo cabeçalho: criamos um `<header>` logo abaixo do `<body>` e colocamos o título da nossa página dentro de um `<h1>` .
@@ -99,14 +100,13 @@ O elemento a tem vários atributos, mas vamos focar em dois, o href e o target.
 O href representa o hyperlink para onde sua âncora aponta, pode ser uma página do seu ou de outro site, um e-mail e até mesmo um telefone, os dois últimos precisam dos prefixos tel: e mailto:, respectivamente.
 
 O target neste momento vai servir para nos ajudar a abrir nossos links em outra aba do navegador usando o valor _blank.
-
 ### Prática
 
 Vamos adicionar um texto fictício a nossa postagem: logo após o fechamento do </header> vamos adicionar um elemento p e inserir um texto que vamos retirar do site lipsum.com
 
 E em alguma parte deste texto vamos adicionar um hiperlink para outra página e um para nosso e-mail.
 
-Criarei um hyperlink para meu perfil no LinkedIn: adicione o hyperlink no atributo href e o valor _blank no atributo target, assim o link será aberto em outra aba. E em algum outro lugar do texto adicionarei meu e-mail e um link para ele, desta forma: <a href="mailto:lucas@vilaboim.com" target="_blank">lucas@vilaboim.com</a>
+Criarei um hyperlink para meu perfil no LinkedIn: adicione o hyperlink no atributo href e o valor _blank no atributo target, assim o link será aberto em outra aba. E em algum outro lugar do texto adicionarei meu e-mail e um link para ele, desta forma: ``<a href="mailto:lucas@vilaboim.com" target="_blank">lucas@vilaboim.com</a>``
 
 ----
 ## Imagens
@@ -127,8 +127,9 @@ Primeiro vamos colocar as imagens na pasta do nosso projeto. Para a imagem do ca
 Dentro do primeiro `<header>` da página e antes do `<h1>` iremos adicionar um elemento img e no atributo src colocamos o caminho para a nossa foto, /lucas-vilaboim.jpg, e o atributo alt deve conter um significado para a imagem, como no meu caso é uma ilustração, colocarei Ilustração do rosto de Lucas Vilaboim.
 
 E dentro do `<header>` do `<article>` vamos fazer a mesma coisa, mas agora depois do `<h3>`, e no atributo alt colocaremos Editor de texto mostrando códigos HTML.
+----
+## Listas
 
-Listas
 Os últimos elementos que veremos neste módulo são os relacionados a listas: `<ul>, <ol> e <li>`.
 
 Listas servem para agrupar uma coleção de itens, como uma lista de ingredientes ou, como será no nosso caso, uma lista com contatos.
