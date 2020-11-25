@@ -1,0 +1,20 @@
+body{
+    background: #ccc
+}
+
+
+#title, subtitle, post_title{
+    color:greenyellow;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: oblique;
+}
+
+.post {
+    background: #fff;
+    padding: 10px;
+    border: 3px solid #111
+    margin: 10px
+}
