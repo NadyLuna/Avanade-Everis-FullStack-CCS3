@@ -1,12 +1,19 @@
 body{
-    background: greenyellow
+    background: rgb(24, 3, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-photo{
+.photo{
     border: 1px solid #505050;
     border-radius: 50%;
 }
 #title, subtitle, post_title{
+    color: #000;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
     color: #000;
 }
 
@@ -25,11 +32,13 @@ photo{
     border-radius: 5px 10px;
 }
 
-post_content {
+.post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+
 }
 
-post_image {
+.post_image {
     margin-bottom: 15px;
 }
